@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: 24b41e5349a7da44ea84fc46abfcee26
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2085494321472198974
+    second: Orange Blue Playful Vibrant Never Have I Ever Game Presentation_0
+  - first:
+      213: 8479196055628106452
+    second: Orange Blue Playful Vibrant Never Have I Ever Game Presentation_1
+  - first:
+      213: -6291908921182845848
+    second: Orange Blue Playful Vibrant Never Have I Ever Game Presentation_2
+  - first:
+      213: -5438644864572494506
+    second: Orange Blue Playful Vibrant Never Have I Ever Game Presentation_3
+  - first:
+      213: 5286181420266651200
+    second: Orange Blue Playful Vibrant Never Have I Ever Game Presentation_4
+  - first:
+      213: 3298157280051913068
+    second: Orange Blue Playful Vibrant Never Have I Ever Game Presentation_5
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 32
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Orange Blue Playful Vibrant Never Have I Ever Game Presentation_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 694
+        width: 635
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39d174390a21fc10800000000000000
+      internalID: 2085494321472198974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Blue Playful Vibrant Never Have I Ever Game Presentation_1
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 694
+        width: 299
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da4b9c43e72ca570800000000000000
+      internalID: 8479196055628106452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Blue Playful Vibrant Never Have I Ever Game Presentation_2
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 405
+        width: 1047
+        height: 896
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86409c11c26aea8a0800000000000000
+      internalID: -6291908921182845848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Blue Playful Vibrant Never Have I Ever Game Presentation_3
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 685
+        width: 315
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d67a39f4d0684b0800000000000000
+      internalID: -5438644864572494506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Blue Playful Vibrant Never Have I Ever Game Presentation_4
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 540
+        width: 365
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e734d8ef94c5940800000000000000
+      internalID: 5286181420266651200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange Blue Playful Vibrant Never Have I Ever Game Presentation_5
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 302
+        width: 12
+        height: 1017
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61ecd2629865cd20800000000000000
+      internalID: 3298157280051913068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Orange Blue Playful Vibrant Never Have I Ever Game Presentation_0: 2085494321472198974
+      Orange Blue Playful Vibrant Never Have I Ever Game Presentation_1: 8479196055628106452
+      Orange Blue Playful Vibrant Never Have I Ever Game Presentation_2: -6291908921182845848
+      Orange Blue Playful Vibrant Never Have I Ever Game Presentation_3: -5438644864572494506
+      Orange Blue Playful Vibrant Never Have I Ever Game Presentation_4: 5286181420266651200
+      Orange Blue Playful Vibrant Never Have I Ever Game Presentation_5: 3298157280051913068
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
