@@ -1038,6 +1038,7 @@ GameObject:
   - component: {fileID: 720589021}
   - component: {fileID: 720589020}
   - component: {fileID: 720589019}
+  - component: {fileID: 720589022}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -1062,7 +1063,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 260.503, y: -82.405}
+  m_AnchoredPosition: {x: 268.94446, y: -82.405}
   m_SizeDelta: {x: 530.2, y: 119}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &720589019
@@ -1147,6 +1148,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 720589017}
   m_CullTransparentMesh: 1
+--- !u!95 &720589022
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720589017}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a02f6dc3ba99e5e4c8c839a2a6e7b90c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!82 &770676529 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 5172430791011512969, guid: f095bff50b464244690c2f517e9649d8, type: 3}
@@ -1164,6 +1187,7 @@ GameObject:
   - component: {fileID: 802167943}
   - component: {fileID: 802167942}
   - component: {fileID: 802167941}
+  - component: {fileID: 802167944}
   m_Layer: 0
   m_Name: Button (2)
   m_TagString: Untagged
@@ -1188,7 +1212,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 260.503, y: -202.505}
+  m_AnchoredPosition: {x: 268.94446, y: -202.505}
   m_SizeDelta: {x: 530.2, y: 119}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &802167941
@@ -1273,6 +1297,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 802167939}
   m_CullTransparentMesh: 1
+--- !u!95 &802167944
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802167939}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a02f6dc3ba99e5e4c8c839a2a6e7b90c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &898914437
 GameObject:
   m_ObjectHideFlags: 0
@@ -1762,6 +1808,7 @@ GameObject:
   - component: {fileID: 1107892939}
   - component: {fileID: 1107892938}
   - component: {fileID: 1107892937}
+  - component: {fileID: 1107892940}
   m_Layer: 0
   m_Name: Button (3)
   m_TagString: Untagged
@@ -1786,7 +1833,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 669.00305, y: -202.505}
+  m_AnchoredPosition: {x: 677.44446, y: -202.505}
   m_SizeDelta: {x: 530.2, y: 119}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1107892937
@@ -1871,6 +1918,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1107892935}
   m_CullTransparentMesh: 1
+--- !u!95 &1107892940
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107892935}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a02f6dc3ba99e5e4c8c839a2a6e7b90c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1140847142
 GameObject:
   m_ObjectHideFlags: 0
@@ -2288,6 +2357,7 @@ GameObject:
   - component: {fileID: 1911007332}
   - component: {fileID: 1911007331}
   - component: {fileID: 1911007330}
+  - component: {fileID: 1911007333}
   m_Layer: 0
   m_Name: Button (1)
   m_TagString: Untagged
@@ -2312,7 +2382,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 669.00305, y: -82.405}
+  m_AnchoredPosition: {x: 677.44446, y: -82.405}
   m_SizeDelta: {x: 530.2, y: 119}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1911007330
@@ -2397,6 +2467,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1911007328}
   m_CullTransparentMesh: 1
+--- !u!95 &1911007333
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911007328}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a02f6dc3ba99e5e4c8c839a2a6e7b90c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!82 &1979921252 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 8831844596466790830, guid: a8ed01b8caf435142855a72c29ebf605, type: 3}
