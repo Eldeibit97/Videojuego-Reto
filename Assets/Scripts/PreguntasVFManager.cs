@@ -19,7 +19,7 @@ public class QuestionList {
 }
 
 public class PreguntasVFManager : MonoBehaviour {
-    private string juego_apiUrl = "http://localhost:5000/get_questions";
+    private string juego_apiUrl = "http://hwkwokogcc40ww44sgw8ogsk.20.246.88.89.sslip.io/get_questions";
     public List<Question> questions;
 
     public TextMeshProUGUI questionText;  // text Object in Unity

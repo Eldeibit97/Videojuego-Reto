@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 
 public class MemoramaMode : MonoBehaviour
 {
@@ -47,7 +49,7 @@ public class MemoramaMode : MonoBehaviour
     PlayerPrefs.SetInt("totalCards", totalCards);
     PlayerPrefs.SetInt("remainingCards", remainingCards);
 
-    // ⬇️ NUEVO: reproducir animación de entrada tipo cascada
+    // ⬇ NUEVO: reproducir animación de entrada tipo cascada
     for (int i = 0; i < cards.Count; i++)
     {
         StartCoroutine(cards[i].PlayEntryAnimation(i * 0.05f));
@@ -56,57 +58,71 @@ public class MemoramaMode : MonoBehaviour
 
 
     public void CheckMatch(Card selectedCard)
-    {
-        if (!canClick) return;
+{
+    if (!canClick || firstCard != null && secondCard != null) return; // ✨ NO DEJAR MÁS DE 2 CARTAS
 
-        if (firstCard == null)
-        {
-            firstCard = selectedCard;
-        }
-        else if (secondCard == null)
-        {
-            secondCard = selectedCard;
-            StartCoroutine(CheckPair());
-        }
+    if (firstCard == null)
+    {
+        firstCard = selectedCard;
+    }
+    else if (secondCard == null)
+    {
+        secondCard = selectedCard;
+        canClick = false; // ✨ BLOQUEAR INMEDIATAMENTE
+        StartCoroutine(CheckPair());
+    }
+}
+
+IEnumerator CheckPair()
+{
+    canClick = false; // 🔵 Bloquear selección
+
+    // 🔵 Desactivar TODOS los botones mientras comparas
+    foreach (var card in cards)
+    {
+        card.GetComponent<Button>().interactable = false;
     }
 
-    IEnumerator CheckPair()
+    yield return new WaitForSeconds(1f); // Mostrar ambas cartas
+
+    if (firstCard.cardID == secondCard.cardID)
     {
-        canClick = false; // bloquear clics mientras se compara
+        DontDestroyOnLoad(CardMatched.gameObject);
+        CardMatched.Play();
 
-        yield return new WaitForSeconds(1f); // Mostrar ambas cartas
-
-        if (firstCard.cardID == secondCard.cardID)
-        {
-            DontDestroyOnLoad(CardMatched.gameObject);
-            CardMatched.Play();
-
-            // If they match, disable them
-            firstCard.HideCard();
-            secondCard.HideCard();
-            remainingCards -= 2;
-            PlayerPrefs.SetInt("remainingCards", remainingCards);
-        }
-        else
-        {
-            // Shake antes de hacer reset
-            StartCoroutine(firstCard.ShakeCard());
-            StartCoroutine(secondCard.ShakeCard());
-
-            yield return new WaitForSeconds(0.35f); // esperar a que termine el shake
-
-            firstCard.ResetCard();
-            secondCard.ResetCard();
-        }
-
-        // Reset para el siguiente turno
-        firstCard = null;
-        secondCard = null;
-
-        canClick = true; // permitir clics otra vez
-
-        CheckGameClear();
+        firstCard.HideCard();
+        secondCard.HideCard();
+        remainingCards -= 2;
+        PlayerPrefs.SetInt("remainingCards", remainingCards);
     }
+    else
+    {
+        StartCoroutine(firstCard.ShakeCard());
+        StartCoroutine(secondCard.ShakeCard());
+
+        yield return new WaitForSeconds(0.35f); // Esperar después del shake
+
+        firstCard.ResetCard();
+        secondCard.ResetCard();
+    }
+
+    // 🔵 Reset para el siguiente turno
+    firstCard = null;
+    secondCard = null;
+
+    // 🔵 Volver a habilitar los botones solo cuando todo terminó
+    foreach (var card in cards)
+    {
+        if (card.isActiveAndEnabled) // Solo si sigue activa
+            card.GetComponent<Button>().interactable = true;
+    }
+
+    canClick = true; // 🔵 Permitir clicks otra vez
+
+    CheckGameClear();
+}
+
+
 
     void CheckGameClear()
     {
@@ -125,6 +141,6 @@ public class MemoramaMode : MonoBehaviour
     void GameClear()
     {
         PlayerPrefs.SetString("ClearChecker", "Game Clear!");
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene("Resultado");
     }
 }

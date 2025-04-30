@@ -150,9 +150,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cardID: 0
-  PictureName: 
-  PictureText: {fileID: 7777487561873319629}
-  PictureObj: {fileID: 5030889752927549961}
   frontImage: {fileID: 0}
   backImage: {fileID: 6810576450272020003, guid: 3e888a6e80dccd243a70e25395c4d0ae, type: 3}
   CardSelectedPrefab: {fileID: 2943376138863537383, guid: 24a53c4fc5c515f448f2b23e59b3e02d, type: 3}
@@ -238,7 +235,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4909426646139042257}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0

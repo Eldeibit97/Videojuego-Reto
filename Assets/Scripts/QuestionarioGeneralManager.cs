@@ -70,7 +70,7 @@ public class QuestionarioGeneralManager : MonoBehaviour
 
     IEnumerator LoadQuestions()
     {
-        string url = "http://localhost:5000/get_choicequestions";
+        string url = "http://hwkwokogcc40ww44sgw8ogsk.20.246.88.89.sslip.io/get_choicequestions";
 
         using (UnityWebRequest request = UnityWebRequest.Get(url))
         {
